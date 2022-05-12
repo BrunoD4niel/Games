@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "fontegames";
+    src: url(fonte/Fun\ Games.ttf);
+}
+
+* {
+    margin: 0px;
+    
+}
+
+:root {
+
+    --corheader: #4158A3;
+
+    --font-padrao: sans-serif;
+    --font-game: "fontegames" , "cursive";
+
+}
+
+header {
+
+    background-color: var(--corheader);
+    color: white;
+    font-family: var(--font-game);
+    text-align: center;
+    padding: 30px 0px ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+
+body {
+
+    font-family: var(--font-padrao);
+    
+}
+
+section > p {
+
+    padding: 200px 0px;
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.226);
+    
+}
+
+article > p {
+    text-align: justify;
+    line-height: 40px;
+    font-size: 16px;
+    padding-top: 15px;
+    
+}
+
+article {
+
+    margin: 100px 0px;
+    padding: 15px;
+}
+
+article > h3 {
+
+    padding: 50px 0px;
+    background-color: #4158A3;
+    font-family: var(--font-game);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+}
+
+#img1{
+
+    background-image: url("imagens/Elden-Ring-Key-Art-e1637061164566.webp");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;   
+
+}
+
+#img2 {
+
+    background-image: url("imagens/standard_fornite.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#img3 {
+
+    background-image: url("imagens/ForzaHorizon5-11-16x9_WM_Mercedes-AMGProjectOne-scaled-e1623755987213.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+footer {
+
+    margin-top: 100px;
+    background-color: var(--corheader);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.459);
+    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.199);
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+
