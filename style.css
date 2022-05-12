@@ -78,6 +78,7 @@ article > h3 {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;   
+    box-shadow: inset rgba(0, 0, 0, 0.397) 5px 5px 5px;
 
 }
 
@@ -88,6 +89,7 @@ article > h3 {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset rgba(0, 0, 0, 0.397) 5px 5px 5px;
 
 }
 
@@ -98,6 +100,7 @@ article > h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset rgba(0, 0, 0, 0.397) 5px 5px 5px;
 
 }
 
